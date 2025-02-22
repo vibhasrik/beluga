@@ -2,6 +2,10 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center the form elements */
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -11,10 +15,10 @@ label {
 
 input[type="text"] {
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 100%; /* Make input fields take full width */
+  width: 80%; /* Make input fields take full width */
 }
 
 button {

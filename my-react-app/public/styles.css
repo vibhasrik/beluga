@@ -1,4 +1,6 @@
+html,
 body {
+  height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #add8e6; /* Baby blue background */
@@ -6,14 +8,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 #root {
   width: 100%;
   max-width: 600px;
   padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  background-color: transparent; /* Baby blue background */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;*/
 }
